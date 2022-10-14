@@ -47,6 +47,7 @@ nav li a {
 img {
     max-width: 100%;
     display: block;
+    max-height: 100%;
 }
 
 main {
@@ -66,4 +67,47 @@ footer p {
 footer p a {
     color: #fff;
     text-decoration: none;
+}
+
+#weights,
+#training,
+#cardio {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt {
+    font-weight: bold;
+}
+
+#exercises dd {
+    padding: 0.5% 1% 2% 0;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #666600;
+    text-decoration: none;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.map {
+    border: 8px solid #000;
 }
