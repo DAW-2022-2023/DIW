@@ -61,7 +61,27 @@ main {
     clear: left;
     background-color: #fff;
     padding: 2%;
-    font-size: 2em;
+    font-size: 1.15em;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
 }
 
 footer p {
@@ -79,11 +99,10 @@ footer p a {
 #weights,
 #training,
 #cardio {
-    width: 29%;
-    float: left;
     margin: 0 2%;
 }
 
+/*
 #exercises {
     clear: left;
     border-top: 1px solid #000;
@@ -98,13 +117,13 @@ footer p a {
 
 #exercises dd {
     padding: 0.5% 1% 2% 0;
-}
+}*/
 
 #contact {
     text-align: center;
 }
 
-#contact a {
+#contact .contact-email-link {
     color: #666600;
     text-decoration: none;
 }
@@ -116,7 +135,20 @@ footer p a {
 }
 
 .map {
-    border: 8px solid #000;
+    border: 2px solid #000;
+    width: 95%;
+    height: 95%;
 }
 
-/* Style rules for mobile viewport */
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+.round {
+    border-radius: 8px;
+}
