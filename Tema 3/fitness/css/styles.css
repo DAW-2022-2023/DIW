@@ -1,7 +1,8 @@
 body,
 header,
 nav,
-footer {
+footer,
+ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -12,33 +13,40 @@ body {
 }
 
 header {
-    float: left;
-    width: 25%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
 }
 
 nav {
-    float: right;
-    margin: 8em 3em 0 0;
-    width: 70%;
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
 nav li {
-    display: inline-block;
     font-size: 1.75em;
-    font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+    border-top: none;
 }
 
 nav li a {
     display: block;
     color: #fff;
-    text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
 }
@@ -53,7 +61,27 @@ main {
     clear: left;
     background-color: #fff;
     padding: 2%;
-    font-size: 2em;
+    font-size: 1.15em;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
 }
 
 footer p {
@@ -71,11 +99,10 @@ footer p a {
 #weights,
 #training,
 #cardio {
-    width: 29%;
-    float: left;
     margin: 0 2%;
 }
 
+/*
 #exercises {
     clear: left;
     border-top: 1px solid #000;
@@ -90,13 +117,13 @@ footer p a {
 
 #exercises dd {
     padding: 0.5% 1% 2% 0;
-}
+}*/
 
 #contact {
     text-align: center;
 }
 
-#contact a {
+#contact .contact-email-link {
     color: #666600;
     text-decoration: none;
 }
@@ -108,5 +135,20 @@ footer p a {
 }
 
 .map {
-    border: 8px solid #000;
+    border: 2px solid #000;
+    width: 95%;
+    height: 95%;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+.round {
+    border-radius: 8px;
 }
