@@ -1,0 +1,20 @@
+.squareRed {
+    background-color: rgb(255, 0, 0);
+    padding: 10%;
+    margin: 3%;
+    float: left;
+}
+
+.squareGreen {
+    background-color: rgb(55, 255, 0);
+    padding: 10%;
+    margin: 3%;
+    float: left;
+}
+
+.squareYellow {
+    background-color: rgb(255, 213, 0);
+    padding: 10%;
+    margin: 3%;
+    float: left;
+}
