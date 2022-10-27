@@ -1,0 +1,21 @@
+.squareRed {
+    display: none;
+}
+
+.squareGreen {
+    display: none;
+}
+
+.squareYellow {
+    display: none;
+}
+
+.squarePrint {
+    background-color: rgb(255, 0, 0);
+    padding: 10%;
+    text-align: center;
+}
+
+.hidden{
+    visibility: hidden;
+}
