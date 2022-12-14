@@ -1,0 +1,26 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.blackBox {
+    float: left;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    border: 1px solid black;
+    clear: both;
+    background-color: black;
+}
+
+.whiteBox {
+    float: left;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    border: 1px solid black;
+    clear: both;
+    background-color: white;
+}
