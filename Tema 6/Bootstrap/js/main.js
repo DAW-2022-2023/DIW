@@ -1,16 +1,22 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  const forms = document.querySelectorAll('.needs-validation')
+export function getArrayData() {
+  let arrayData = localStorage.getItem("arrayData");
+  if (arrayData === null) {
+    return arrayData = [];
+  }
+  return arrayData = JSON.parse(arrayData);
+}
 
-  // Loop over them and prevent submission
-  Array.from(forms).forEach(form => {
-    form.addEventListener('submit', event => {
-      if (!form.checkValidity()) {
-        event.preventDefault()
-        event.stopPropagation()
-      }
-
-      form.classList.add('was-validated')
-    }, false)
-  })
-});
+export function storeData(nombre, apellido, username, city, zip, tel, dni, pass) {
+  let arrayData = getArrayData();
+  arrayData.push({
+    nombre: nombre,
+    apellido: apellido,
+    username: username,
+    city: city,
+    zip: zip,
+    tel: tel,
+    dni: dni,
+    pass: pass
+  });
+  localStorage.setItem("arrayData", JSON.stringify(arrayData));
+}
