@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/main.js"></script>
+
+  <script src="js/login.js"></script>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -31,11 +33,13 @@
         </div>
         <div class="row  d-flex justify-content-center">
           <div class="col-xs-4  p-2">
-            <p class="d-flex justify-content-end"> ¿Te has olvidado contraseña?</p>
+            <p class="d-flex justify-content-end" data-bs-toggle="modal" data-bs-target="#exampleModal"> ¿Te has
+              olvidado contraseña?
+            </p>
           </div>
 
         </div>
-        <div class="row d-flex justify-content-center">
+        <div class=" row d-flex justify-content-center">
           <div class="col-xs-4 d-flex justify-content-end">
             <input type="submit" class="btn btn-primary" value="submit">
           </div>
@@ -50,6 +54,37 @@
         <a href="registro.html">
           <div id="registrarse" class="btn btn-secondary">Registrate</div>
         </a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Recuperar contraseña</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Aver studiau xd..
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="toast" role="alert" id="myToast" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="media/image.jfif" class="rounded me-2" alt="...">
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Hello, world! This is a toast message.
       </div>
     </div>
 

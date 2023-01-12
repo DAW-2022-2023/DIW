@@ -2,6 +2,7 @@ import { getArrayData, storeData } from "./main.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  document.querySelector("#mensajeUsuario").textContent = "El usuario no existe";
   const forms = document.querySelectorAll('.needs-validation')
   const valueUserName = document.querySelector("#validationCustomUsername");
   // Loop over them and prevent submission
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       registredUsers.forEach(element => {
         if (element.username === valueUserName.value) {
           valueUserName.setCustomValidity("Ya existe ese usuario");
+          document.querySelector("#mensajeUsuario").textContent = "Ya existe ese usuario";
         }
       });
 
@@ -38,5 +40,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function getValue(id) {
-  return document.querySelector("#validationCustomUsername").value;
+  return document.querySelector(`#${id}`).value;
 }
