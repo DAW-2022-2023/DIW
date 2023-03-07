@@ -1,0 +1,22 @@
+Problemas de UX:
+
+Falta de llamada a la acción clara: El botón "Comprar ahora" no proporciona una llamada a la acción clara. Es posible que los usuarios no sepan qué ocurrirá si hacen clic en él. Solución: Utilice un texto más descriptivo en el botón para que los usuarios sepan qué ocurrirá cuando hagan clic en él.
+
+Falta de jerarquía visual: El área de contenido principal y el producto destacado tienen el mismo nivel de importancia y peso visual. Solución: Utilizar un tamaño de fuente mayor o un color diferente para la cabecera del producto destacado.
+Mala disposición del contenido: El contenido no está ordenado de forma óptima y el flujo de información no es fácil de seguir. Solución: Organice el contenido para que los usuarios puedan escanearlo y digerirlo más fácilmente. Por ejemplo, utilice títulos y subtítulos, viñetas o listas numeradas para dividir el contenido en secciones más pequeñas y manejables.
+
+Navegación incoherente: Los enlaces de navegación no son coherentes y el orden no es intuitivo. Solución: Mantenga los enlaces de navegación coherentes y organícelos en un orden lógico, como Inicio, Productos, Quiénes somos y Contacto.
+
+Las imágenes no tienen texto alternativo: Las imágenes de la página no tienen texto alternativo, lo que dificulta la comprensión del contenido a los usuarios con problemas de visión. Solución: Proporcione texto alternativo para todas las imágenes de la página, describiendo lo que muestra la imagen.
+
+Problemas de UI:
+
+Tipografía incoherente: La tipografía de la página no es coherente. Solución: Utilice una tipografía coherente en toda la página para crear un aspecto más cohesivo y profesional.
+
+Mala elección de colores: Las elecciones de color no proporcionan suficiente contraste, lo que dificulta la lectura del contenido a algunos usuarios. Solución: Utiliza colores con mayor contraste para mejorar la legibilidad.
+
+Falta de información visual: Los enlaces de navegación no ofrecen información visual cuando el usuario pasa el ratón por encima, lo que dificulta saber qué enlace está activo. Solución: Utilizar efectos hover CSS para proporcionar retroalimentación visual cuando el usuario interactúa con los enlaces de navegación.
+
+Uso excesivo de bordes: El uso de bordes alrededor del producto destacado y de la barra de navegación es excesivo y no aporta nada al diseño. Solución: Elimine los bordes o utilícelos con más moderación para crear un diseño más estilizado.
+
+Falta de espacio en blanco: El contenido de la página está apretado y carece de suficiente espacio en blanco, lo que dificulta la lectura y comprensión por parte de los usuarios. Solución: Utilice más espacios en blanco para separar el contenido y facilitar su lectura y escaneado.

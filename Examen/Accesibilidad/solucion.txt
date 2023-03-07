@@ -1,0 +1,14 @@
+Falta la declaración del idioma del documento: agregue el atributo lang al elemento html para indicar el idioma utilizado en el documento. Ejemplo: <html lang="en">.
+
+Falta el atributo alt para las imágenes: agregue texto alternativo descriptivo al elemento img para proporcionar información sobre la imagen. Ejemplo: `<img src="img/flor.jpg" alt="Una flor hermosa">`.
+Elemento de etiqueta faltante para controles de formulario: agregue elementos de etiqueta para cada control de formulario para proporcionar una etiqueta visible que describa el propósito del control. Ejemplo: <label for="name">Nombre:</label><input type="text" name="name" id="name">.
+
+Sin indicación visual del enfoque del teclado: agregue un indicador de enfoque visible para mostrar qué elemento tiene el enfoque del teclado. Ejemplo: input:focus { contorno: 2px sólido #0070c0; }.
+
+Falta el atributo de autocompletar para los controles de formulario: agregue el atributo de autocompletar con los valores apropiados para permitir que los usuarios completen formularios de manera más rápida y precisa. Ejemplo: <input type="text" name="name" autocomplete="name">.
+
+Sin indicación de controles de formulario requeridos: agregue el atributo requerido a los controles de formulario requeridos para indicar que el control debe completarse antes de que se pueda enviar el formulario. Ejemplo: <input type="email" name="email" required>.
+
+Sin mensajes de error para controles de formulario no válidos: agregue mensajes de error para informar a los usuarios sobre el motivo del error y cómo solucionarlo. Ejemplo: input:invalid + span { display: block; color rojo; }<input type="email" name="email" requerido><span>Dirección de correo electrónico no válida</span>.
+
+Falta texto alternativo para contenido que no sea de texto: agregue aria-label o atributo de título para proporcionar una etiqueta para contenido que no sea de texto que aún no esté etiquetado por su contexto. Ejemplo: <img src="img/flor.jpg" alt="" aria-label="Una hermosa flor">.
